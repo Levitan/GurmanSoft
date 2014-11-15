@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gurman Soft</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="siteUrl">Адрес сайта</string>
+    <string name="urlEx">http://menu.example.com/</string>
+    <string name="hideAB">Скрыть панель заголовка</string>
+    <string name="hideEx">Действие отменить нельзя!</string>
+    <string name="s_main">Основные</string>
+    <string name="s_dev">Для разработчика</string>
+    <string name="s_devEx">Не трогать без необходимости</string>
+    <string name="swJs">Включить JavaScript</string>
+    <string name="reload">Обновить</string>
+    <string name="exit">Выход</string>
+    <string name="support">Справка / О программе</string>
+    <string name="hidePanel">Скрыть системные панели</string>
+    <string name="hidePanelEx">Скрывает навигацию и уведомления</string>
+</resources>

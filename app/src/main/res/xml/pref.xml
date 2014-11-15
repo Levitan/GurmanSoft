@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="main"
+        android:title="@string/s_main">
+        <EditTextPreference
+            android:key="url"
+            android:title="@string/siteUrl"
+            android:summary="@string/urlEx"
+            android:defaultValue="http://"
+            android:inputType="textUri"
+            />
+        <SwitchPreference
+            android:key="hideActionBar"
+            android:defaultValue="false"
+            android:title="@string/hideAB"
+            android:summary="@string/hideEx"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="dev"
+        android:title="@string/s_dev"
+        android:summary="@string/s_devEx">
+        <SwitchPreference
+            android:key="swJS"
+            android:title="@string/swJs"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="hideUI"
+            android:defaultValue="false"
+            android:title="@string/hidePanel"
+            android:summary="@string/hidePanelEx"/>
+    </PreferenceCategory>
+</PreferenceScreen>
